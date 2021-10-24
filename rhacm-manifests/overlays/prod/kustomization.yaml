@@ -1,6 +1,6 @@
 bases:
   - ../../base/
-  - /policy/
+  - policy/
 
 resources:
   - ApplicationOpenshiftGitops.yaml
