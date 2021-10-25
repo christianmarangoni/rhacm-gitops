@@ -1,4 +1,4 @@
 resources:
   - ../00appproj
   - projects/default/appset/pricelist-example.yaml
-  - projects/default/appset/prehook/
+  - projects/default/appset/prehook/slack-notification.yaml
