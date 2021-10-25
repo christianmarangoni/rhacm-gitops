@@ -7,4 +7,3 @@ resources:
   - OpenshiftGitopsPlacementrule.yaml
   - OpenshiftGitopsAppsSubscription.yaml
   - OpenshiftGitopsSubscription.yaml
-  - AnsibleJobSubscription.yaml
