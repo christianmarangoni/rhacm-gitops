@@ -2,7 +2,7 @@ apiVersion: tower.ansible.com/v1alpha1
 kind: AnsibleJob
 metadata:
   name: slack-notification
-  namespace: argocd
+  namespace: openshift-gitops
   labels:
     app.kubernetes.io/name: argocd
 spec:
