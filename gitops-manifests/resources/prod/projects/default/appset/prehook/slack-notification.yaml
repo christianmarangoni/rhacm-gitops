@@ -7,4 +7,4 @@ metadata:
     app.kubernetes.io/name: argocd
 spec:
   tower_auth_secret: admin-token
-  job_template_name: demojobtemplate
+  job_template_name: slack-notification-application
