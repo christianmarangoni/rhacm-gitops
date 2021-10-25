@@ -28,7 +28,7 @@ prehooks:
       job_template_name: demojobtemplate
       tower_auth_secret: admin-token
 spec:
-  channel: channel-openshift-gitops
+  channel: ns-channel-ocpgitops/channel-openshift-gitops
   hooksecretref:
     name: admin-token
   placement:
