@@ -1,10 +1,10 @@
 apiVersion: tower.ansible.com/v1alpha1
 kind: AnsibleJob
 metadata:
-  name: slack-notification-op
+  name: slack-notification-application
   namespace: rhacm-credential
   labels:
     app.kubernetes.io/name: argocd
 spec:
   tower_auth_secret: admin-token
-  job_template_name: slack-notification-application
+  job_template_name: application-posthook
