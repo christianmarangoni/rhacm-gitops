@@ -5,3 +5,5 @@ resources:
   - OpenshiftGitopsPlacementrule.yaml
   - OpenshiftGitopsAppsSubscription.yaml
   - OpenshiftGitopsSubscription.yaml
+  - policy/placementbinding-openshift-gitops.yaml
+  - policy/PolicyOpenshiftGitops.yaml
