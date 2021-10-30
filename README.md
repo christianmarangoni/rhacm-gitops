@@ -40,7 +40,9 @@ To use this repo you need to have in your enviroment:
 * Login into RHACM Hub cluster.
 * Deploy this repository on RHACM:
   ```
-  oc apply -k https://github.com/christianmarangoni/rhacm-gitops/tree/rhconnect/rhacm-manifests/overlays/prod
+  clone repository because is not the main branch
+  navigate to root folder 
+  oc apply -k rhacm-gitops/rhacm-manifests/overlays/prod/
   ```
 
   This will create the following resources:
