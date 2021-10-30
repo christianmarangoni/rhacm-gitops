@@ -14,7 +14,7 @@ metadata:
     apps.open-cluster-management.io/git-path: gitops-manifests/operator
     apps.open-cluster-management.io/reconcile-option: replace
 spec:
-  channel: ns-channel-ocpgitops/channel-openshift-gitops
+  channel: nschannelocpgitops/channelopenshiftgitops
   hooksecretref:
     name: admin-token
   placement:

@@ -1,7 +1,7 @@
 kind: Namespace
 apiVersion: v1
 metadata:
-  name: ns-channel-ocpgitops
+  name: nschannelocpgitops
 spec:
   finalizers:
     - kubernetes
