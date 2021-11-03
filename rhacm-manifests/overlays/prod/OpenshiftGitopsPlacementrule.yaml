@@ -11,4 +11,4 @@ spec:
       status: "True"
   clusterSelector:
     matchLabels:
-      role: "prod-active"
+      role: "rhconnect1"
