@@ -7,8 +7,10 @@ metadata:
     app: argocd
 spec:
   clusterConditions:
-    - type: ManagedClusterConditionAvailable
-      status: "True"
-  clusterSelector:
-    matchLabels:
-      role: "rhconnect1"
+    matchExpressions:
+    - key: role
+      operator: In
+      values:
+      - rhconnect1
+    matchLabels: {}
+  clusterReplicas: 1
