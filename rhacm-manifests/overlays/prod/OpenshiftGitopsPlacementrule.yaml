@@ -7,6 +7,9 @@ metadata:
     app: argocd
 spec:
   clusterConditions:
+    - type: "ManagedClusterConditionAvailable"
+      status: "True"
+  clusterSelector:  
     matchExpressions:
     - key: role
       operator: In
