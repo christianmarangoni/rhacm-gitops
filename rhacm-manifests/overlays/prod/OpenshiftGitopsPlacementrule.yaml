@@ -15,5 +15,6 @@ spec:
       operator: In
       values:
       - rhconnect1
+      - rhconnect2
     matchLabels: {}
   clusterReplicas: 1
