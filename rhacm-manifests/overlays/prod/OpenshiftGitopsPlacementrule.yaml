@@ -17,4 +17,4 @@ spec:
       - rhconnect1
       - rhconnect2
     matchLabels: {}
-  clusterReplicas: 1
+  clusterReplicas: 2
